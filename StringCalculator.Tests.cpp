@@ -27,7 +27,7 @@ TEST(StringCalculatorTestSuite,GivenoneandoneasExpected)
  //Arrange
     StringCalculator objUnderTest;
     string input="1";
-    int expectedValue=0;
+    int expectedValue=1;
     //Act
    int actualValue=  objUnderTest.Add(input);
     //Assert
